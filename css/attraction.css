@@ -1,0 +1,122 @@
+/*-- visitors --*/
+.w3l-visitors-agile {
+    background: rgba(15, 36, 83, 0.07);
+}
+
+.title-agileits1 {
+    text-align: center;
+}
+
+.title-agileits1 h3 {
+    display: block;
+    color: #212121;
+    font-size: 2.5em;
+    position: relative;
+    padding-bottom: .5em;
+}
+
+.title-agileits1 h3:before {
+    content: '';
+    background: #bdbdbd;
+    height: 1px;
+    width: 23%;
+    position: absolute;
+    bottom: 0%;
+    left: 38%;
+}
+
+.title-agileits1 h3:after {
+    content: '';
+    background: #00a4e4;
+    height: 4px;
+    width: 10%;
+    position: absolute;
+    bottom: -1px;
+    left: 44%;
+}
+
+h3.w3l-agile:before,
+h2.w3l-agile:before {
+    content: '';
+    background: #ccc;
+    height: 1px;
+    width: 15%;
+    position: absolute;
+    bottom: 0%;
+    left: 43%;
+}
+
+.w3layouts_work_grid_left {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.w3layouts_work_grid_left_pos {
+    position: absolute;
+    top: 18%;
+    right: -7%;
+    width: 60%;
+}
+
+.w3layouts_work_grid_right {
+    float: right;
+    width: 50%;
+    padding: 5em 13em 0em 6em;
+    margin-top: 5em;
+}
+
+.w3layouts_work_grid_left_pos img {
+    border: 10px solid #ffffff;
+    box-shadow: 0 0 15px rgba(98, 98, 98, 0.32);
+    -webkit-box-shadow: 0 0 15px rgba(98, 98, 98, 0.32);
+}
+
+.w3layouts_work_grid_right h4 {
+    font-size: 1em;
+    color: #0f2453;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.w3layouts_work_grid_right h4 i {
+    color: #ffce14 !important;
+}
+
+.w3layouts_work_grid_right h5 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-top: 10px;
+    color: #212121;
+    line-height: 1.4em;
+    text-transform: capitalize;
+}
+
+.w3layouts_work_grid_right p {
+    margin: 2em 0 0;
+    color: #444;
+    font-size: 16px;
+    line-height: 2.2em;
+    letter-spacing: 1px;
+}
+
+.w3layouts_work_grid_right p:nth-child(4) {
+    color: #ffce14;
+    text-align: right;
+    margin-top: 0 !important;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*-- //visitors --*/
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: ' ';
+    display: table;
+}
